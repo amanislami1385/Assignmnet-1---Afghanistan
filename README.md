@@ -5,7 +5,7 @@ A multi-page website about Afghanistan created for the **HTML & CSS Basics Assig
 ## 🌍 Live Website
 
 **GitHub Pages:**  
-https://YOUR-USERNAME.github.io/REPOSITORY-NAME/
+[https://YOUR-USERNAME.github.io/REPOSITORY-NAME/](https://github.com/amanislami1385/Assignmnet-1---Afghanistan)
 
 ## 📁 Project Structure
 
