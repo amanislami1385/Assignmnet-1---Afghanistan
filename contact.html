@@ -1,0 +1,233 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact form for the Afghanistan website.">
+    <title>Afghanistan | Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+
+    <div class="container nav-container">
+
+        <a class="logo" href="index.html">Afghanistan</a>
+
+        <nav aria-label="Main navigation">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+</header>
+
+<main>
+
+    <section class="page-hero">
+
+        <div class="container">
+
+            <p class="eyebrow">Get in touch</p>
+
+            <h1>Contact Us</h1>
+
+            <p>
+                Share your thoughts about Afghanistan and this website.
+            </p>
+
+        </div>
+
+    </section>
+
+    <section class="section">
+
+        <div class="container contact-layout">
+
+            <div class="contact-info">
+
+                <p class="eyebrow">Contact</p>
+
+                <h2>Send Your Message</h2>
+
+                <p>
+                    This form is created for the HTML and CSS assignment.
+                    It does not require a backend to send information.
+                </p>
+
+            </div>
+
+            <form class="contact-form" action="#" method="post">
+
+                <fieldset>
+
+                    <legend>Personal Information</legend>
+
+                    <div class="form-group">
+
+                        <label for="name">Full Name</label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your full name"
+                            minlength="2"
+                            required>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="email">Email Address</label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="example@email.com"
+                            required>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="age">Age</label>
+
+                        <input
+                            type="number"
+                            id="age"
+                            name="age"
+                            min="10"
+                            max="100">
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="date">Preferred Date</label>
+
+                        <input
+                            type="date"
+                            id="date"
+                            name="date">
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="color">Favorite Color</label>
+
+                        <input
+                            type="color"
+                            id="color"
+                            name="color"
+                            value="#12355B">
+
+                    </div>
+
+                </fieldset>
+
+                <fieldset>
+
+                    <legend>Topic</legend>
+
+                    <p class="form-question">
+                        What would you like to learn about?
+                    </p>
+
+                    <div class="radio-group">
+
+                        <label>
+                            <input
+                                type="radio"
+                                name="topic"
+                                value="history"
+                                required>
+                            History
+                        </label>
+
+                        <label>
+                            <input
+                                type="radio"
+                                name="topic"
+                                value="culture">
+                            Culture
+                        </label>
+
+                        <label>
+                            <input
+                                type="radio"
+                                name="topic"
+                                value="nature">
+                            Nature
+                        </label>
+
+                    </div>
+
+                    <label class="checkbox-label">
+
+                        <input
+                            type="checkbox"
+                            name="updates"
+                            value="yes">
+
+                        I would like to receive website updates.
+
+                    </label>
+
+                </fieldset>
+
+                <fieldset>
+
+                    <legend>Message</legend>
+
+                    <div class="form-group">
+
+                        <label for="message">Your Message</label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            maxlength="500"
+                            placeholder="Write your message here..."></textarea>
+
+                    </div>
+
+                </fieldset>
+
+                <button class="button submit-button" type="submit">
+                    Submit
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer class="site-footer">
+
+    <div class="container footer-content">
+
+        <p>&copy; 2026 Afghanistan Website</p>
+
+        <p>HTML &amp; CSS Basics Assignment #1</p>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
+```
